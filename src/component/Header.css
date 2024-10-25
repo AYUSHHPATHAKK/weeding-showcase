@@ -1,0 +1,89 @@
+/* Header Container */
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+/* Navbar Logo */
+.navbar-logo {
+  font-size: 1.8rem;
+  color: #d99158;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+/* Navbar Menu */
+.navbar-menu {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header ul li {
+  margin: 0 24px;
+}
+
+.header ul li a,
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.header ul li a:hover,
+.navbar-link:hover {
+  color: #f39c12;
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Hide navbar menu and show toggle */
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+  }
+
+  .navbar-menu.active {
+    display: flex; /* Show the menu when active */
+  }
+
+  .menu-toggle {
+    display: block; /* Show toggle button on mobile */
+  }
+
+  .header ul li {
+    margin: 10px 0; /* Space out links vertically */
+  }
+}
+.navbar .chat-icon {
+  margin-right: 10px; /* Adjust the value as needed */
+}
