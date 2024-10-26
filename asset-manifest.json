@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-clone/static/css/main.b523bf23.chunk.css",
+    "main.js": "/portfolio-clone/static/js/main.a902a139.chunk.js",
+    "main.js.map": "/portfolio-clone/static/js/main.a902a139.chunk.js.map",
+    "runtime~main.js": "/portfolio-clone/static/js/runtime~main.83cbf78f.js",
+    "runtime~main.js.map": "/portfolio-clone/static/js/runtime~main.83cbf78f.js.map",
+    "static/js/2.404ca32a.chunk.js": "/portfolio-clone/static/js/2.404ca32a.chunk.js",
+    "static/js/2.404ca32a.chunk.js.map": "/portfolio-clone/static/js/2.404ca32a.chunk.js.map",
+    "static/js/3.44b60ca4.chunk.js": "/portfolio-clone/static/js/3.44b60ca4.chunk.js",
+    "static/js/3.44b60ca4.chunk.js.map": "/portfolio-clone/static/js/3.44b60ca4.chunk.js.map",
+    "index.html": "/portfolio-clone/index.html",
+    "precache-manifest.73ce03209c89b8c7ac77adb9c2bf2fe4.js": "/portfolio-clone/precache-manifest.73ce03209c89b8c7ac77adb9c2bf2fe4.js",
+    "service-worker.js": "/portfolio-clone/service-worker.js",
+    "static/css/main.b523bf23.chunk.css.map": "/portfolio-clone/static/css/main.b523bf23.chunk.css.map"
+  }
+}
